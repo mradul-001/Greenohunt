@@ -1,0 +1,23 @@
+{% extends "base.html" %} {% block content %}
+<h2>Scoreboard</h2>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Team Name</th>
+      <th>Sequence Number</th>
+      <th>QR Code</th>
+      <th>Scanned At</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for log in logs %}
+    <tr>
+      <td>{{ log.team.team_name }}</td>
+      <td>{{ log.sequence_number }}</td>
+      <td>{{ log.qr_code }}</td>
+      <td>{{ log.scanned_at.strftime('%Y-%m-%d %H:%M:%S') }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

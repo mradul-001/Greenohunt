@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Camera Test</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-4">
+    <h2>Camera Test</h2>
+    <video id="preview" style="width: 100%; height: auto;" autoplay></video>
+    <script>
+      navigator.mediaDevices.getUserMedia({ video: true })
+        .then(stream => {
+          const video = document.getElementById('preview');
+          video.srcObject = stream;
+          video.play();
+        })
+        .catch(err => console.error('Error accessing camera:', err));
+    </script>
+  </div>
+</body>
+</html>

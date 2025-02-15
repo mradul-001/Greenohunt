@@ -1,0 +1,60 @@
+{% extends "base.html" %} {% block content %}
+<h2>Dashboard</h2>
+<p>Welcome, {{ current_user.team_name }}!</p>
+<p>Your current progress: Step {{ current_step }}</p>
+
+{% if next_path %}
+<div class="card mb-3">
+  <div class="card-body">
+    <h5 class="card-title">Next Riddle</h5>
+    <p class="card-text">{{ next_path.riddle }}</p>
+  </div>
+</div>
+{% else %}
+<div class="alert alert-success">
+  You have completed all clues. Congratulations!
+</div>
+{% endif %}
+
+<hr />
+<h3>Scan QR Code</h3>
+<!-- Container for the html5-qrcode scanner -->
+<div id="reader" style="width: 100%"></div>
+
+<!-- Form to submit the scanned QR code; using a hidden input since submission will be automatic -->
+<form method="POST" action="{{ url_for('scan') }}" id="qrForm">
+  <input type="hidden" id="qr_code" name="qr_code" required />
+</form>
+
+<hr />
+<p><a href="{{ url_for('logout') }}">Logout</a></p>
+
+<!-- Include the html5-qrcode library from CDN -->
+<script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+<script type="text/javascript">
+  // Called when a QR code is successfully scanned
+  function onScanSuccess(decodedText, decodedResult) {
+    console.log(`Code scanned: ${decodedText}`);
+    // Fill in the hidden input field with the scanned text
+    document.getElementById("qr_code").value = decodedText;
+    // Auto-submit the form immediately
+    document.getElementById("qrForm").submit();
+  }
+
+  // Optional error callback
+  function onScanError(errorMessage) {
+    // Log errors or handle them if needed
+    console.error("Scan error:", errorMessage);
+  }
+
+  // Initialize the html5-qrcode scanner when the DOM is ready
+  document.addEventListener("DOMContentLoaded", function () {
+    let html5QrcodeScanner = new Html5QrcodeScanner(
+      "reader",
+      { fps: 10, qrbox: 250 },
+      false
+    );
+    html5QrcodeScanner.render(onScanSuccess, onScanError);
+  });
+</script>
+{% endblock %}

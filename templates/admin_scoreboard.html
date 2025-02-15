@@ -1,0 +1,38 @@
+{% extends "base.html" %} {% block content %}
+<h2>Admin Scoreboard</h2>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Team Identifier</th>
+      <th>Team Name</th>
+      <th>Score (Steps Completed)</th>
+      <th>Last Correct Scan</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for row in scoreboard_data %}
+    <tr>
+      <td>{{ row.team_identifier }}</td>
+      <td>{{ row.team_name }}</td>
+      <td>{{ row.score }}</td>
+      <td>
+        {% if row.last_scan %} {{ row.last_scan.strftime('%Y-%m-%d %H:%M:%S') }}
+        {% else %} Never {% endif %}
+      </td>
+      <td>
+        {% if row.team_db_id %}
+        <form
+          method="POST"
+          action="{{ url_for('delete_team', team_id=row.team_db_id) }}"
+          onsubmit="return confirm('Are you sure you want to delete this team?');"
+        >
+          <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+        </form>
+        {% else %} --- {% endif %}
+      </td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

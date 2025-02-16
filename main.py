@@ -8,6 +8,20 @@ from datetime import datetime
 from flask_migrate import Migrate
 import random
 from flask import session
+import sqlite3
+from sqlalchemy import event
+from sqlalchemy.engine import Engine
+
+import sqlite3
+from sqlalchemy import event
+from sqlalchemy.engine import Engine
+
+@event.listens_for(Engine, "connect")
+def set_sqlite_pragma(dbapi_connection, connection_record):
+    if isinstance(dbapi_connection, sqlite3.Connection):
+        cursor = dbapi_connection.cursor()
+        cursor.execute("PRAGMA foreign_keys=ON;")
+        cursor.close()
 
 
 app = Flask(__name__)
@@ -42,6 +56,16 @@ class Team(UserMixin, db.Model):
     security_question = db.Column(db.String(255), nullable=True)
     security_answer = db.Column(db.String(255), nullable=True)
     
+    # Define relationship with cascade deletion
+    logs = db.relationship('ScanLog', backref='team', lazy=True, cascade="all, delete-orphan")
+    
+    def set_password(self, password):
+        self.password_hash = generate_password_hash(password)
+    
+    def check_password(self, password):
+        return check_password_hash(self.password_hash, password)
+
+    
     # Define the relationship with cascade delete
     logs = db.relationship('ScanLog', backref='team', lazy=True, cascade="all, delete-orphan")
 
@@ -74,15 +98,25 @@ class TeamPath(db.Model):
 
 class ScanLog(db.Model):
     id = db.Column(db.Integer, primary_key=True)
-    team_id = db.Column(db.Integer, db.ForeignKey('team.id'), nullable=False)
-    sequence_number = db.Column(db.Integer, nullable=False)  # which step was completed
+    team_id = db.Column(db.Integer, db.ForeignKey('team.id', ondelete='CASCADE'), nullable=False)
+    sequence_number = db.Column(db.Integer, nullable=False)
     qr_code = db.Column(db.String(50))
     scanned_at = db.Column(db.DateTime, default=datetime.utcnow)
+
 
 # Optional: Add a relationship to the Team model for easy access
 Team.logs = db.relationship('ScanLog', backref='team', lazy=True)
 
 
+
+
+@event.listens_for(Engine, "connect")
+def set_sqlite_pragma(dbapi_connection, connection_record):
+    # Enable foreign key constraints in SQLite
+    if isinstance(dbapi_connection, sqlite3.Connection):
+        cursor = dbapi_connection.cursor()
+        cursor.execute("PRAGMA foreign_keys=ON;")
+        cursor.close()
 
 
 # ---------------------------
@@ -109,47 +143,60 @@ def index():
 @app.route('/register', methods=['GET', 'POST'])
 def register():
     if request.method == 'POST':
-        team_name = request.form.get('team_name')
+        # Get and normalize form data
+        team_name = request.form.get('team_name').strip()
         password = request.form.get('password')
-        leader_phone = request.form.get('leader_phone')
-        security_question = request.form.get('security_question')
-        security_answer = request.form.get('security_answer')
+        leader_phone = request.form.get('leader_phone').strip()
+        security_question = request.form.get('security_question').strip()
+        security_answer = request.form.get('security_answer').strip()
         
-        # Ensure no duplicate team names
+        # Ensure the team name is unique.
         if Team.query.filter_by(team_name=team_name).first():
             flash('Team name already exists. Please choose a different name.')
             return redirect(url_for('register'))
         
-        # Get the set of available team identifiers from the TeamPath table.
-        available_ids = {row.team_identifier for row in TeamPath.query.distinct(TeamPath.team_identifier).all()}
-        # Get the set of already assigned identifiers.
-        assigned_ids = {team.assigned_team_id for team in Team.query.filter(Team.assigned_team_id != None).all()}
-        # Determine the unused identifiers.
+        # Get all assigned team identifiers from existing teams.
+        assigned_ids = {
+            team.assigned_team_id 
+            for team in Team.query.filter(Team.assigned_team_id != None).all() 
+            if team.assigned_team_id is not None
+        }
+        
+        # Get the set of all available team identifiers from the TeamPath table.
+        available_ids = {
+            row.team_identifier 
+            for row in db.session.query(TeamPath.team_identifier).distinct().all()
+        }
+        
+        # Determine which team identifiers have not been allocated yet.
         unused_ids = available_ids - assigned_ids
+        
         if not unused_ids:
-            flash("No available team identifiers. Please contact the administrator.")
+            flash("No available team identifiers. Registration is closed or please contact the administrator.")
             return redirect(url_for('register'))
         
-        # For example, choose the first available one (you could also randomize if desired)
+        # Allocate the first available identifier (you could randomize if desired).
         allocated_id = sorted(unused_ids)[0]
         
-        # Create the new team with the allocated identifier.
+        # Create the new team with the allocated team identifier.
         new_team = Team(
             team_name=team_name,
             assigned_team_id=allocated_id,
             leader_phone=leader_phone,
             security_question=security_question,
-            security_answer=security_answer
+            security_answer=security_answer,
+            is_admin=False,  # Ensure this team is not an admin
+            current_step=0   # Starting progress is 0
         )
         new_team.set_password(password)
         db.session.add(new_team)
         db.session.commit()
         
-        # (Optionally, handle player details if needed here)
-        
         flash('Registration successful! Please log in.')
         return redirect(url_for('login'))
+    
     return render_template('register.html')
+
 
 @app.route('/admin/register', methods=['GET', 'POST'])
 def admin_register():
@@ -350,19 +397,23 @@ def scoreboard():
 @app.route('/admin/delete_team/<int:team_id>', methods=['POST'])
 @login_required
 def delete_team(team_id):
-    # Only allow admin users to delete teams.
     if not current_user.is_admin:
         flash("Access Denied: Admin privileges required.")
         return redirect(url_for('dashboard'))
     
     team = Team.query.get(team_id)
     if team and not team.is_admin:
+        # Manually delete all associated scan logs
+        for log in team.logs:
+            db.session.delete(log)
+        # Then delete the team
         db.session.delete(team)
         db.session.commit()
-        flash("Team has been deleted and its team identifier deallocated.")
+        flash("Team and its scan logs have been deleted.")
     else:
-        flash("Team not found or cannot delete admin team.")
+        flash("Team not found or cannot delete an admin team.")
     return redirect(url_for('scoreboard'))
+
 
 
 

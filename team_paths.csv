@@ -1,696 +1,689 @@
-team_identifier,sequence_number,location_code,riddle
-A,1,LOC1,"Once I stood tall, reaching high, But thunder roared across the sky. A sudden flash, a mighty crack, Now I rest, never growing back. What am I?"
-A,2,LOC2,"With iron bars, I make the way,
- Green above, where sunrays play.
- Walk through me, don’t be late,
- The boat house is beyond my gate!"""
-A,3,LOC3,"I once held words, now I rest in peace,
-  Waiting to grant old ink release.
-  Not thrown away, but given new might,
-  Find me where ends get a second write!"
-A,4,LOC4,"By a place where ideas take flight,
-  Where minds create from day to night.
-  I stand tall, with roots so deep,
-  A silent watcher of secrets you keep.
-  Find me near the makers’ hive,
-  Where tools and dreams come alive!"
-A,5,LOC5,"I am a house, but not just any,
-  I save the earth, I spend not many.
-  With sun and science, I make my way,
-  Near Hostel 6, I proudly stay.
+team_identifier,sequence_number,location_code,riddle,,,,
+A,1,LOC1,Once I stood tall reaching high But thunder roared across the sky A sudden flash a mighty crack Now I rest never growing back What am I?,,,,
+A,2,LOC2,"With iron bars I make the way Green above where sunrays play
+ Walk through me don’t be late
+ The boat house is beyond my gate!""",,,"
+",
+A,3,LOC3,"I once held words now I rest in peace
+  Waiting to grant old ink release
+  Not thrown away but given new might
+  Find me where ends get a second write!",,,,
+A,4,LOC4,"By a place where ideas take flight
+  Where minds create from day to night
+  I stand tall with roots so deep
+  A silent watcher of secrets you keep
+  Find me near the makers’ hive
+  Where tools and dreams come alive!",,,,
+A,5,LOC5,"I am a house but not just any
+  I save the earth I spend not many
+  With sun and science I make my way
+  Near Hostel 6 I proudly stay
   
-  What am I?"
-A,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-B,1,LOC3,"I once held words, now I rest in peace,
-  Waiting to grant old ink release.
-  Not thrown away, but given new might,
-  Find me where ends get a second write!"
-B,2,LOC2,"With iron bars, I make the way,
- Green above, where sunrays play.
- Walk through me, don’t be late,
- The boat house is beyond my gate!"""
-B,3,LOC4,"By a place where ideas take flight,
-  Where minds create from day to night.
-  I stand tall, with roots so deep,
-  A silent watcher of secrets you keep.
-  Find me near the makers’ hive,
-  Where tools and dreams come alive!"
-B,4,LOC5,"I am a house, but not just any,
-  I save the earth, I spend not many.
-  With sun and science, I make my way,
-  Near Hostel 6, I proudly stay.
+  What am I?",,,,
+A,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+B,1,LOC3,"I once held words now I rest in peace
+  Waiting to grant old ink release
+  Not thrown away but given new might
+  Find me where ends get a second write!",,,,
+B,2,LOC2,"With iron bars I make the way
+ Green above where sunrays play
+ Walk through me don’t be late
+ The boat house is beyond my gate!""",,,,
+B,3,LOC4,"By a place where ideas take flight
+  Where minds create from day to night
+  I stand tall with roots so deep
+  A silent watcher of secrets you keep
+  Find me near the makers’ hive
+  Where tools and dreams come alive!",,,,
+B,4,LOC5,"I am a house but not just any
+  I save the earth I spend not many
+  With sun and science I make my way
+  Near Hostel 6 I proudly stay
   
-  What am I?"
-B,5,LOC1,"Once I stood tall, reaching high, But thunder roared across the sky. A sudden flash, a mighty crack, Now I rest, never growing back. What am I?"
-B,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-C,1,LOC5,"I am a house, but not just any,
-  I save the earth, I spend not many.
-  With sun and science, I make my way,
-  Near Hostel 6, I proudly stay.
+  What am I?",,,,
+B,5,LOC1,Once I stood tall reaching high But thunder roared across the sky A sudden flash a mighty crack Now I rest never growing back What am I?,,,,
+B,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+C,1,LOC5,"I am a house but not just any
+  I save the earth I spend not many
+  With sun and science I make my way
+  Near Hostel 6 I proudly stay
   
-  What am I?"
-C,2,LOC3,"I once held words, now I rest in peace,
-  Waiting to grant old ink release.
-  Not thrown away, but given new might,
-  Find me where ends get a second write!"
-C,3,LOC1,"Once I stood tall, reaching high, But thunder roared across the sky. A sudden flash, a mighty crack, Now I rest, never growing back. What am I?"
-C,4,LOC2,"With iron bars, I make the way,
- Green above, where sunrays play.
- Walk through me, don’t be late,
- The boat house is beyond my gate!"""
-C,5,LOC4,"By a place where ideas take flight,
-  Where minds create from day to night.
-  I stand tall, with roots so deep,
-  A silent watcher of secrets you keep.
-  Find me near the makers’ hive,
-  Where tools and dreams come alive!"
-C,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-D,1,LOC4,"By a place where ideas take flight,
-  Where minds create from day to night.
-  I stand tall, with roots so deep,
-  A silent watcher of secrets you keep.
-  Find me near the makers’ hive,
-  Where tools and dreams come alive!"
-D,2,LOC5,"I am a house, but not just any,
-  I save the earth, I spend not many.
-  With sun and science, I make my way,
-  Near Hostel 6, I proudly stay.
+  What am I?",,,,
+C,2,LOC3,"I once held words now I rest in peace
+  Waiting to grant old ink release
+  Not thrown away but given new might
+  Find me where ends get a second write!",,,,
+C,3,LOC1,Once I stood tall reaching high But thunder roared across the sky A sudden flash a mighty crack Now I rest never growing back What am I?,,,,
+C,4,LOC2,"With iron bars I make the way
+ Green above where sunrays play
+ Walk through me don’t be late
+ The boat house is beyond my gate!""",,,,
+C,5,LOC4,"By a place where ideas take flight
+  Where minds create from day to night
+  I stand tall with roots so deep
+  A silent watcher of secrets you keep
+  Find me near the makers’ hive
+  Where tools and dreams come alive!",,,,
+C,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+D,1,LOC4,"By a place where ideas take flight
+  Where minds create from day to night
+  I stand tall with roots so deep
+  A silent watcher of secrets you keep
+  Find me near the makers’ hive
+  Where tools and dreams come alive!",,,,
+D,2,LOC5,"I am a house but not just any
+  I save the earth I spend not many
+  With sun and science I make my way
+  Near Hostel 6 I proudly stay
   
-  What am I?"
-D,3,LOC3,"I once held words, now I rest in peace,
-  Waiting to grant old ink release.
-  Not thrown away, but given new might,
-  Find me where ends get a second write!"
-D,4,LOC2,"With iron bars, I make the way,
- Green above, where sunrays play.
- Walk through me, don’t be late,
- The boat house is beyond my gate!"""
-D,5,LOC1,"Once I stood tall, reaching high, But thunder roared across the sky. A sudden flash, a mighty crack, Now I rest, never growing back. What am I?"
-D,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-E,1,LOC6,"Guarding wisdom, tall I stand,
-  Near a place where knowledge is grand.
-  Pages turn, but I stay still,
-  Find me if you have the will!"
-E,2,LOC7,"I stand in silence, strong and high, Touched by clouds as they pass by. A path winds up through green embrace, Reaching my peak, a peaceful place. What am I?"
-E,3,LOC8,"High above, yet full of green,
- On Civil’s top, I can be seen.
- I don’t touch ground, but I still grow,
- A hanging beauty in the air I show.
- What am I?"
-E,4,LOC9,"From food and waste, I make new light,
-  Turning leftovers into might.
-  Gas I produce, not seen but grand,
-  Find me where waste gets a helping hand!"
-E,5,LOC10,"Tall and slender, I sway with grace,
-  Near a place of money and chase.
-  With fronds so green, I touch the sky,
-  Find me where the rupees lie!"
-E,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-F,1,LOC7,"I stand in silence, strong and high, Touched by clouds as they pass by. A path winds up through green embrace, Reaching my peak, a peaceful place. What am I?"
-F,2,LOC6,"Guarding wisdom, tall I stand,
-  Near a place where knowledge is grand.
-  Pages turn, but I stay still,
-  Find me if you have the will!"
-F,3,LOC9,"From food and waste, I make new light,
-  Turning leftovers into might.
-  Gas I produce, not seen but grand,
-  Find me where waste gets a helping hand!"
-F,4,LOC10,"Tall and slender, I sway with grace,
-  Near a place of money and chase.
-  With fronds so green, I touch the sky,
-  Find me where the rupees lie!"
-F,5,LOC8,"High above, yet full of green,
- On Civil’s top, I can be seen.
- I don’t touch ground, but I still grow,
- A hanging beauty in the air I show.
- What am I?"
-F,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-G,1,LOC10,"Tall and slender, I sway with grace,
-  Near a place of money and chase.
-  With fronds so green, I touch the sky,
-  Find me where the rupees lie!"
-G,2,LOC9,"From food and waste, I make new light,
-  Turning leftovers into might.
-  Gas I produce, not seen but grand,
-  Find me where waste gets a helping hand!"
-G,3,LOC6,"Guarding wisdom, tall I stand,
-  Near a place where knowledge is grand.
-  Pages turn, but I stay still,
-  Find me if you have the will!"
-G,4,LOC7,"I stand in silence, strong and high, Touched by clouds as they pass by. A path winds up through green embrace, Reaching my peak, a peaceful place. What am I?"
-G,5,LOC8,"High above, yet full of green,
- On Civil’s top, I can be seen.
- I don’t touch ground, but I still grow,
- A hanging beauty in the air I show.
- What am I?"
-G,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-H,1,LOC9,"From food and waste, I make new light,
-  Turning leftovers into might.
-  Gas I produce, not seen but grand,
-  Find me where waste gets a helping hand!"
-H,2,LOC10,"Tall and slender, I sway with grace,
-  Near a place of money and chase.
-  With fronds so green, I touch the sky,
-  Find me where the rupees lie!"
-H,3,LOC7,"I stand in silence, strong and high, Touched by clouds as they pass by. A path winds up through green embrace, Reaching my peak, a peaceful place. What am I?"
-H,4,LOC8,"High above, yet full of green,
- On Civil’s top, I can be seen.
- I don’t touch ground, but I still grow,
- A hanging beauty in the air I show.
- What am I?"
-H,5,LOC6,"Guarding wisdom, tall I stand,
-  Near a place where knowledge is grand.
-  Pages turn, but I stay still,
-  Find me if you have the will!"
-H,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-I,1,LOC11,"Made of metal, strong yet true,
-  Many hands come into view.
-  A symbol of strength, a work of art,
-  Find me where the hands take part!"
-I,2,LOC12,"Planted with care, young greens grow,
-  Nurtured by hands that serve and sow.
-  Near a school where children learn,
-  Find me where the saplings turn!"
-I,3,LOC13,"Carved in green, a symbol stands,
- Pride of the institute, shaped by hands.
- No words are spoken, yet all can see,
- Find me where the logo will be"
-I,4,LOC14,"I stand not straight, but lean with grace,
-  In front of a matkas place.
-  Through sun and storm, I bend, not break,
-  Find me here for the clue to take!"
-I,5,LOC15,"Behind Hostel 11, I stand so tall,
- With twisted arms but no life at all.
- I look like a ghost, eerie to see,
- What am I, can you guess me?"
-I,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-J,1,LOC13,"Carved in green, a symbol stands,
- Pride of the institute, shaped by hands.
- No words are spoken, yet all can see,
- Find me where the logo will be"
-J,2,LOC14,"I stand not straight, but lean with grace,
-  In front of a matkas place.
-  Through sun and storm, I bend, not break,
-  Find me here for the clue to take!"
-J,3,LOC11,"Made of metal, strong yet true,
-  Many hands come into view.
-  A symbol of strength, a work of art,
-  Find me where the hands take part!"
-J,4,LOC12,"Planted with care, young greens grow,
-  Nurtured by hands that serve and sow.
-  Near a school where children learn,
-  Find me where the saplings turn!"
-J,5,LOC15,"Behind Hostel 11, I stand so tall,
- With twisted arms but no life at all.
- I look like a ghost, eerie to see,
- What am I, can you guess me?"
-J,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-K,1,LOC14,"I stand not straight, but lean with grace,
-  In front of a matkas place.
-  Through sun and storm, I bend, not break,
-  Find me here for the clue to take!"
-K,2,LOC13,"Carved in green, a symbol stands,
- Pride of the institute, shaped by hands.
- No words are spoken, yet all can see,
- Find me where the logo will be"
-K,3,LOC15,"Behind Hostel 11, I stand so tall,
- With twisted arms but no life at all.
- I look like a ghost, eerie to see,
- What am I, can you guess me?"
-K,4,LOC11,"Made of metal, strong yet true,
-  Many hands come into view.
-  A symbol of strength, a work of art,
-  Find me where the hands take part!"
-K,5,LOC12,"Planted with care, young greens grow,
-  Nurtured by hands that serve and sow.
-  Near a school where children learn,
-  Find me where the saplings turn!"
-K,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-L,1,LOC11,"Made of metal, strong yet true,
-  Many hands come into view.
-  A symbol of strength, a work of art,
-  Find me where the hands take part!"
-L,2,LOC14,"I stand not straight, but lean with grace,
-  In front of a matkas place.
-  Through sun and storm, I bend, not break,
-  Find me here for the clue to take!"
-L,3,LOC13,"Carved in green, a symbol stands,
- Pride of the institute, shaped by hands.
- No words are spoken, yet all can see,
- Find me where the logo will be"
-L,4,LOC15,"Behind Hostel 11, I stand so tall,
- With twisted arms but no life at all.
- I look like a ghost, eerie to see,
- What am I, can you guess me?"
-L,5,LOC12,"Planted with care, young greens grow,
-  Nurtured by hands that serve and sow.
-  Near a school where children learn,
-  Find me where the saplings turn!"
-L,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-M,1,LOC16,"I catch the sun to power the way,
-  Helping lights shine bright each day.
-  By the road, connected to ground,
-  Find me where I fuel it all!"
-M,2,LOC17,"A place where power is studied deep,
-  From sun to wind, the secrets keep.
-  If energy’s future you wish to see,
-  Find this building—where else could it be?"
-M,3,LOC18,"Where little greens grow strong and tall,
-  Cared for daily, one and all.
-  Near a place of healing hands,
-  Find me where new life stands!"
-M,4,LOC19,"I walk with strength, I stand with pride, In fields and farms, I'm a farmer's guide. A place of care, safe and wide, Where powerful beings peacefully reside. What am I?"
-M,5,LOC20,"Between metal and circuits bright,
- I stand tall, soaking light.
- Students pass me every day,
- Find me where these fields lay!"
-M,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-N,1,LOC18,"Where little greens grow strong and tall,
-  Cared for daily, one and all.
-  Near a place of healing hands,
-  Find me where new life stands!"
-N,2,LOC19,"I walk with strength, I stand with pride, In fields and farms, I'm a farmer's guide. A place of care, safe and wide, Where powerful beings peacefully reside. What am I?"
-N,3,LOC16,"I catch the sun to power the way,
-  Helping lights shine bright each day.
-  By the road, connected to ground,
-  Find me where I fuel it all!"
-N,4,LOC20,"Between metal and circuits bright,
- I stand tall, soaking light.
- Students pass me every day,
- Find me where these fields lay!"
-N,5,LOC17,"A place where power is studied deep,
-  From sun to wind, the secrets keep.
-  If energy’s future you wish to see,
-  Find this building—where else could it be?"
-N,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-O,1,LOC20,"Between metal and circuits bright,
- I stand tall, soaking light.
- Students pass me every day,
- Find me where these fields lay!"
-O,2,LOC17,"A place where power is studied deep,
-  From sun to wind, the secrets keep.
-  If energy’s future you wish to see,
-  Find this building—where else could it be?"
-O,3,LOC18,"Where little greens grow strong and tall,
-  Cared for daily, one and all.
-  Near a place of healing hands,
-  Find me where new life stands!"
-O,4,LOC19,"I walk with strength, I stand with pride, In fields and farms, I'm a farmer's guide. A place of care, safe and wide, Where powerful beings peacefully reside. What am I?"
-O,5,LOC16,"I catch the sun to power the way,
-  Helping lights shine bright each day.
-  By the road, connected to ground,
-  Find me where I fuel it all!"
-O,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-P,1,LOC16,"I catch the sun to power the way,
-  Helping lights shine bright each day.
-  By the road, connected to ground,
-  Find me where I fuel it all!"
-P,2,LOC19,"I walk with strength, I stand with pride, In fields and farms, I'm a farmer's guide. A place of care, safe and wide, Where powerful beings peacefully reside. What am I?"
-P,3,LOC20,"Between metal and circuits bright,
- I stand tall, soaking light.
- Students pass me every day,
- Find me where these fields lay!"
-P,4,LOC18,"Where little greens grow strong and tall,
-  Cared for daily, one and all.
-  Near a place of healing hands,
-  Find me where new life stands!"
-P,5,LOC17,"A place where power is studied deep,
-  From sun to wind, the secrets keep.
-  If energy’s future you wish to see,
-  Find this building—where else could it be?"
-P,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-Q,1,LOC21,"With statue of bird and me,
-  Near an arch where wise words lay.
-  A silent guardian, bold and free,
-  Find me where learning meets destiny!"
-Q,2,LOC22,what is that which has the name of a water vehicle and a place where family lives but none can be seen there
-Q,3,LOC23,"A symbol of wisdom, open and wide,
-  Standing tall with knowledge inside.
-  Near the hall where honors shine,
-  Find me where learning leaves its sign!"
-Q,4,LOC24,"I stand alone where paths divide,
-  A silent watcher, firm with pride.
-  Though roads may twist and cars may pass,
-  I stay rooted—strong, steadfast.
- detween the paths which lead height, 
- Yet here I stay, my only home."
-Q,5,LOC25,"Where wisdom grows and leaders shine, Stratergy and knowledge intertwine. Near this place, with love and care. We tie a thread to a tree standing there. We tie a thred to a tree standing there. What an i?"
-Q,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-R,1,LOC24,"I stand alone where paths divide,
-  A silent watcher, firm with pride.
-  Though roads may twist and cars may pass,
-  I stay rooted—strong, steadfast.
- detween the paths which lead height, 
- Yet here I stay, my only home."
-R,2,LOC25,"Where wisdom grows and leaders shine, Stratergy and knowledge intertwine. Near this place, with love and care. We tie a thread to a tree standing there. We tie a thred to a tree standing there. What an i?"
-R,3,LOC23,"A symbol of wisdom, open and wide,
-  Standing tall with knowledge inside.
-  Near the hall where honors shine,
-  Find me where learning leaves its sign!"
-R,4,LOC22,what is that which has the name of a water vehicle and a place where family lives but none can be seen there
-R,5,LOC21,"With statue of bird and me,
-  Near an arch where wise words lay.
-  A silent guardian, bold and free,
-  Find me where learning meets destiny!"
-R,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-S,1,LOC25,"Where wisdom grows and leaders shine, Stratergy and knowledge intertwine. Near this place, with love and care. We tie a thread to a tree standing there. We tie a thred to a tree standing there. What an i?"
-S,2,LOC24,"I stand alone where paths divide,
-  A silent watcher, firm with pride.
-  Though roads may twist and cars may pass,
-  I stay rooted—strong, steadfast.
- detween the paths which lead height, 
- Yet here I stay, my only home."
-S,3,LOC22,what is that which has the name of a water vehicle and a place where family lives but none can be seen there
-S,4,LOC21,"With statue of bird and me,
-  Near an arch where wise words lay.
-  A silent guardian, bold and free,
-  Find me where learning meets destiny!"
-S,5,LOC23,"A symbol of wisdom, open and wide,
-  Standing tall with knowledge inside.
-  Near the hall where honors shine,
-  Find me where learning leaves its sign!"
-S,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-T,1,LOC22,what is that which has the name of a water vehicle and a place where family lives but none can be seen there
-T,2,LOC21,"With statue of bird and me,
-  Near an arch where wise words lay.
-  A silent guardian, bold and free,
-  Find me where learning meets destiny!"
-T,3,LOC24,"I stand alone where paths divide,
-  A silent watcher, firm with pride.
-  Though roads may twist and cars may pass,
-  I stay rooted—strong, steadfast.
- detween the paths which lead height, 
- Yet here I stay, my only home."
-T,4,LOC23,"A symbol of wisdom, open and wide,
-  Standing tall with knowledge inside.
-  Near the hall where honors shine,
-  Find me where learning leaves its sign!"
-T,5,LOC25,"Where wisdom grows and leaders shine, Stratergy and knowledge intertwine. Near this place, with love and care. We tie a thread to a tree standing there. We tie a thred to a tree standing there. What an i?"
-T,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-U,1,LOC26,"With branches strong and spread out wide,
- I stand where motion and forces collide.
- Near gears that turn and engines roar,
- Find me where mechanics explore!"
-U,2,LOC27,"I am a Horse who do not race,
-  Yet I stand in a noble place.
-  Near the home of art and design,
-  Find me where ideas shine!"
-U,3,LOC28,"In the way of the Boat house, I stand tall, With hanging branches that sway and fall. Like flowing threads from up so high, Who am I as you walk by?"
-U,4,LOC29,"A peaceful spot with flowers bright,
-  Where stars above shine every night.
-  A garden calm, with nature’s art,
-  Find me here to make a start!"
-U,5,LOC30,"shine like a mirror, calm and wide,
- In front of the guest house, I quietly reside.
- Fish may swim, and birds may land,
- What am I, can you understand?"
-U,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-V,1,LOC27,"I am a Horse who do not race,
-  Yet I stand in a noble place.
-  Near the home of art and design,
-  Find me where ideas shine!"
-V,2,LOC29,"A peaceful spot with flowers bright,
-  Where stars above shine every night.
-  A garden calm, with nature’s art,
-  Find me here to make a start!"
-V,3,LOC26,"With branches strong and spread out wide,
- I stand where motion and forces collide.
- Near gears that turn and engines roar,
- Find me where mechanics explore!"
-V,4,LOC30,"shine like a mirror, calm and wide,
- In front of the guest house, I quietly reside.
- Fish may swim, and birds may land,
- What am I, can you understand?"
-V,5,LOC28,"In the way of the Boat house, I stand tall, With hanging branches that sway and fall. Like flowing threads from up so high, Who am I as you walk by?"
-V,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-W,1,LOC28,"In the way of the Boat house, I stand tall, With hanging branches that sway and fall. Like flowing threads from up so high, Who am I as you walk by?"
-W,2,LOC30,"shine like a mirror, calm and wide,
- In front of the guest house, I quietly reside.
- Fish may swim, and birds may land,
- What am I, can you understand?"
-W,3,LOC26,"With branches strong and spread out wide,
- I stand where motion and forces collide.
- Near gears that turn and engines roar,
- Find me where mechanics explore!"
-W,4,LOC27,"I am a Horse who do not race,
-  Yet I stand in a noble place.
-  Near the home of art and design,
-  Find me where ideas shine!"
-W,5,LOC29,"A peaceful spot with flowers bright,
-  Where stars above shine every night.
-  A garden calm, with nature’s art,
-  Find me here to make a start!"
-W,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-X,1,LOC30,"shine like a mirror, calm and wide,
- In front of the guest house, I quietly reside.
- Fish may swim, and birds may land,
- What am I, can you understand?"
-X,2,LOC27,"I am a Horse who do not race,
-  Yet I stand in a noble place.
-  Near the home of art and design,
-  Find me where ideas shine!"
-X,3,LOC29,"A peaceful spot with flowers bright,
-  Where stars above shine every night.
-  A garden calm, with nature’s art,
-  Find me here to make a start!"
-X,4,LOC28,"In the way of the Boat house, I stand tall, With hanging branches that sway and fall. Like flowing threads from up so high, Who am I as you walk by?"
-X,5,LOC26,"With branches strong and spread out wide,
- I stand where motion and forces collide.
- Near gears that turn and engines roar,
- Find me where mechanics explore!"
-X,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-Y,1,LOC2,"With iron bars, I make the way,
- Green above, where sunrays play.
- Walk through me, don’t be late,
- The boat house is beyond my gate!"""
-Y,2,LOC4,"By a place where ideas take flight,
-  Where minds create from day to night.
-  I stand tall, with roots so deep,
-  A silent watcher of secrets you keep.
-  Find me near the makers’ hive,
-  Where tools and dreams come alive!"
-Y,3,LOC5,"I am a house, but not just any,
-  I save the earth, I spend not many.
-  With sun and science, I make my way,
-  Near Hostel 6, I proudly stay.
+  What am I?",,,,
+D,3,LOC3,"I once held words now I rest in peace
+  Waiting to grant old ink release
+  Not thrown away but given new might
+  Find me where ends get a second write!",,,,
+D,4,LOC2,"With iron bars I make the way
+ Green above where sunrays play
+ Walk through me don’t be late
+ The boat house is beyond my gate!""",,,,
+D,5,LOC1,Once I stood tall reaching high But thunder roared across the sky A sudden flash a mighty crack Now I rest never growing back What am I?,,,,
+D,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+E,1,LOC6,"Guarding wisdom tall I stand
+  Near a place where knowledge is grand
+  Pages turn but I stay still
+  Find me if you have the will!",,,,
+E,2,LOC7,I stand in silence strong and high Touched by clouds as they pass by A path winds up through green embrace Reaching my peak a peaceful place What am I?,,,,
+E,3,LOC8,"High above yet full of green
+ On Civil’s top I can be seen
+ I don’t touch ground but I still grow
+ A hanging beauty in the air I show
+ What am I?",,,,
+E,4,LOC9,"From food and waste I make new light
+  Turning leftovers into might
+  Gas I produce not seen but grand
+  Find me where waste gets a helping hand!",,,,
+E,5,LOC10,"Tall and slender I sway with grace
+  Near a place of money and chase
+  With fronds so green I touch the sky
+  Find me where the rupees lie!",,,,
+E,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+F,1,LOC7,I stand in silence strong and high Touched by clouds as they pass by A path winds up through green embrace Reaching my peak a peaceful place What am I?,,,,
+F,2,LOC6,"Guarding wisdom tall I stand
+  Near a place where knowledge is grand
+  Pages turn but I stay still
+  Find me if you have the will!",,,,
+F,3,LOC9,"From food and waste I make new light
+  Turning leftovers into might
+  Gas I produce not seen but grand
+  Find me where waste gets a helping hand!",,,,
+F,4,LOC10,"Tall and slender I sway with grace
+  Near a place of money and chase
+  With fronds so green I touch the sky
+  Find me where the rupees lie!",,,,
+F,5,LOC8,"High above yet full of green
+ On Civil’s top I can be seen
+ I don’t touch ground but I still grow
+ A hanging beauty in the air I show
+ What am I?",,,,
+F,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+G,1,LOC10,"Tall and slender I sway with grace
+  Near a place of money and chase
+  With fronds so green I touch the sky
+  Find me where the rupees lie!",,,,
+G,2,LOC9,"From food and waste I make new light
+  Turning leftovers into might
+  Gas I produce not seen but grand
+  Find me where waste gets a helping hand!",,,,
+G,3,LOC6,"Guarding wisdom tall I stand
+  Near a place where knowledge is grand
+  Pages turn but I stay still
+  Find me if you have the will!",,,,
+G,4,LOC7,I stand in silence strong and high Touched by clouds as they pass by A path winds up through green embrace Reaching my peak a peaceful place What am I?,,,,
+G,5,LOC8,"High above yet full of green
+ On Civil’s top I can be seen
+ I don’t touch ground but I still grow
+ A hanging beauty in the air I show
+ What am I?",,,,
+G,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+H,1,LOC9,"From food and waste I make new light
+  Turning leftovers into might
+  Gas I produce not seen but grand
+  Find me where waste gets a helping hand!",,,,
+H,2,LOC10,"Tall and slender I sway with grace
+  Near a place of money and chase
+  With fronds so green I touch the sky
+  Find me where the rupees lie!",,,,
+H,3,LOC7,I stand in silence strong and high Touched by clouds as they pass by A path winds up through green embrace Reaching my peak a peaceful place What am I?,,,,
+H,4,LOC8,"High above yet full of green
+ On Civil’s top I can be seen
+ I don’t touch ground but I still grow
+ A hanging beauty in the air I show
+ What am I?",,,,
+H,5,LOC6,"Guarding wisdom tall I stand
+  Near a place where knowledge is grand
+  Pages turn but I stay still
+  Find me if you have the will!",,,,
+H,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+I,1,LOC11,"Made of metal strong yet true
+  Many hands come into view
+  A symbol of strength a work of art
+  Find me where the hands take part!",,,,
+I,2,LOC12,"Planted with care young greens grow
+  Nurtured by hands that serve and sow
+  Near a school where children learn
+  Find me where the saplings turn!",,,,
+I,3,LOC13,"Carved in green a symbol stands
+ Pride of the institute shaped by hands
+ No words are spoken yet all can see
+ Find me where the logo will be",,,,
+I,4,LOC14,"I stand not straight but lean with grace
+  In front of a matkas place
+  Through sun and storm I bend not break
+  Find me here for the clue to take!",,,,
+I,5,LOC15,"Opposite the place where athletes run
+Stands a hostel numbered one-one
+Behind it waits so still so tall
+A lifeless tree that scares them all",,,,
+I,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+J,1,LOC13,"Carved in green a symbol stands
+ Pride of the institute shaped by hands
+ No words are spoken yet all can see
+ Find me where the logo will be",,,,
+J,2,LOC14,"I stand not straight but lean with grace
+  In front of a matkas place
+  Through sun and storm I bend not break
+  Find me here for the clue to take!",,,,
+J,3,LOC11,"Made of metal strong yet true
+  Many hands come into view
+  A symbol of strength a work of art
+  Find me where the hands take part!",,,,
+J,4,LOC12,"Planted with care young greens grow
+  Nurtured by hands that serve and sow
+  Near a school where children learn
+  Find me where the saplings turn!",,,,
+J,5,LOC15,"Opposite the place where athletes run
+Stands a hostel numbered one-one
+Behind it waits so still so tall
+A lifeless tree that scares them all",,,,
+J,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+K,1,LOC14,"I stand not straight but lean with grace
+  In front of a matkas place
+  Through sun and storm I bend not break
+  Find me here for the clue to take!",,,,
+K,2,LOC13,"Carved in green a symbol stands
+ Pride of the institute shaped by hands
+ No words are spoken yet all can see
+ Find me where the logo will be",,,,
+K,3,LOC15,"Opposite the place where athletes run
+Stands a hostel numbered one-one
+Behind it waits so still so tall
+A lifeless tree that scares them all",,,,
+K,4,LOC11,"Made of metal strong yet true
+  Many hands come into view
+  A symbol of strength a work of art
+  Find me where the hands take part!",,,,
+K,5,LOC12,"Planted with care young greens grow
+  Nurtured by hands that serve and sow
+  Near a school where children learn
+  Find me where the saplings turn!",,,,
+K,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+L,1,LOC11,"Made of metal strong yet true
+  Many hands come into view
+  A symbol of strength a work of art
+  Find me where the hands take part!",,,,
+L,2,LOC14,"I stand not straight but lean with grace
+  In front of a matkas place
+  Through sun and storm I bend not break
+  Find me here for the clue to take!",,,,
+L,3,LOC13,"Carved in green a symbol stands
+ Pride of the institute shaped by hands
+ No words are spoken yet all can see
+ Find me where the logo will be",,,,
+L,4,LOC15,"Opposite the place where athletes run
+Stands a hostel numbered one-one
+Behind it waits so still so tall
+A lifeless tree that scares them all",,,,
+L,5,LOC12,"Planted with care young greens grow
+  Nurtured by hands that serve and sow
+  Near a school where children learn
+  Find me where the saplings turn!",,,,
+L,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+M,1,LOC16,"I catch the sun to power the way
+  Helping lights shine bright each day
+  By the road connected to ground
+  Find me where I fuel it all!",,,,
+M,2,LOC17,"A place where power is studied deep
+  From sun to wind the secrets keep
+  If energy’s future you wish to see
+  Find this building—where else could it be?",,,,
+M,3,LOC18,"Where little greens grow strong and tall
+  Cared for daily one and all
+  Near a place of healing hands
+  Find me where new life stands!",,,,
+M,4,LOC19,I walk with strength I stand with pride In fields and farms I'm a farmer's guide A place of care safe and wide Where powerful beings peacefully reside What am I?,,,,
+M,5,LOC20,"Between metal and circuits bright
+ I stand tall soaking light
+ Students pass me every day
+ Find me where these fields lay!",,,,
+M,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+N,1,LOC18,"Where little greens grow strong and tall
+  Cared for daily one and all
+  Near a place of healing hands
+  Find me where new life stands!",,,,
+N,2,LOC19,I walk with strength I stand with pride In fields and farms I'm a farmer's guide A place of care safe and wide Where powerful beings peacefully reside What am I?,,,,
+N,3,LOC16,"I catch the sun to power the way
+  Helping lights shine bright each day
+  By the road connected to ground
+  Find me where I fuel it all!",,,,
+N,4,LOC20,"Between metal and circuits bright
+ I stand tall soaking light
+ Students pass me every day
+ Find me where these fields lay!",,,,
+N,5,LOC17,"A place where power is studied deep
+  From sun to wind the secrets keep
+  If energy’s future you wish to see
+  Find this building—where else could it be?",,,,
+N,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+O,1,LOC20,"Between metal and circuits bright
+ I stand tall soaking light
+ Students pass me every day
+ Find me where these fields lay!",,,,
+O,2,LOC17,"A place where power is studied deep
+  From sun to wind the secrets keep
+  If energy’s future you wish to see
+  Find this building—where else could it be?",,,,
+O,3,LOC18,"Where little greens grow strong and tall
+  Cared for daily one and all
+  Near a place of healing hands
+  Find me where new life stands!",,,,
+O,4,LOC19,I walk with strength I stand with pride In fields and farms I'm a farmer's guide A place of care safe and wide Where powerful beings peacefully reside What am I?,,,,
+O,5,LOC16,"I catch the sun to power the way
+  Helping lights shine bright each day
+  By the road connected to ground
+  Find me where I fuel it all!",,,,
+O,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+P,1,LOC16,"I catch the sun to power the way
+  Helping lights shine bright each day
+  By the road connected to ground
+  Find me where I fuel it all!",,,,
+P,2,LOC19,I walk with strength I stand with pride In fields and farms I'm a farmer's guide A place of care safe and wide Where powerful beings peacefully reside What am I?,,,,
+P,3,LOC20,"Between metal and circuits bright
+ I stand tall soaking light
+ Students pass me every day
+ Find me where these fields lay!",,,,
+P,4,LOC18,"Where little greens grow strong and tall
+  Cared for daily one and all
+  Near a place of healing hands
+  Find me where new life stands!",,,,
+P,5,LOC17,"A place where power is studied deep
+  From sun to wind the secrets keep
+  If energy’s future you wish to see
+  Find this building—where else could it be?",,,,
+P,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+Q,1,LOC21,"With statue of bird and me
+  Near an arch where wise words lay
+  A silent guardian bold and free
+  Find me where learning meets destiny!",,,,
+Q,2,LOC22,"I hide in the bushes low and tight of a water vehicle and a place where family lives but none can be seen there Look closely where the leaves are dense
+Find me there—it all makes sense!",,,,
+Q,3,LOC23,"A symbol of wisdom open and wide
+  Standing tall with knowledge inside
+  Near the hall where honors shine
+  Find me where learning leaves its sign!",,,,
+Q,4,LOC24,"I stand alone where paths divide
+  A silent watcher firm with pride
+  Though roads may twist and cars may pass
+  I stay rooted—strong steadfast
+ detween the paths which lead height 
+ Yet here I stay my only home",,,,
+Q,5,LOC25,"By the well where managers meet
+A silent giant shades the street
+On the way where lectures call
+It stands and watches over all",,,,
+Q,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+R,1,LOC24,"I stand alone where paths divide
+  A silent watcher firm with pride
+  Though roads may twist and cars may pass
+  I stay rooted—strong steadfast
+ detween the paths which lead height 
+ Yet here I stay my only home",,,,
+R,2,LOC25,"By the well where managers meet
+A silent giant shades the street
+On the way where lectures call
+It stands and watches over all",,,,
+R,3,LOC23,"A symbol of wisdom open and wide
+  Standing tall with knowledge inside
+  Near the hall where honors shine
+  Find me where learning leaves its sign!",,,,
+R,4,LOC22,"I hide in the bushes low and tight of a water vehicle and a place where family lives but none can be seen there Look closely where the leaves are dense
+Find me there—it all makes sense!",,,,
+R,5,LOC21,"With statue of bird and me
+  Near an arch where wise words lay
+  A silent guardian bold and free
+  Find me where learning meets destiny!",,,,
+R,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+S,1,LOC25,"By the well where managers meet
+A silent giant shades the street
+On the way where lectures call
+It stands and watches over all",,,,
+S,2,LOC24,"I stand alone where paths divide
+  A silent watcher firm with pride
+  Though roads may twist and cars may pass
+  I stay rooted—strong steadfast
+ detween the paths which lead height 
+ Yet here I stay my only home",,,,
+S,3,LOC22,"I hide in the bushes low and tight of a water vehicle and a place where family lives but none can be seen there Look closely where the leaves are dense
+Find me there—it all makes sense!",,,,
+S,4,LOC21,"With statue of bird and me
+  Near an arch where wise words lay
+  A silent guardian bold and free
+  Find me where learning meets destiny!",,,,
+S,5,LOC23,"A symbol of wisdom open and wide
+  Standing tall with knowledge inside
+  Near the hall where honors shine
+  Find me where learning leaves its sign!",,,,
+S,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+T,1,LOC22,"I hide in the bushes low and tight of a water vehicle and a place where family lives but none can be seen there Look closely where the leaves are dense
+Find me there—it all makes sense!",,,,
+T,2,LOC21,"With statue of bird and me
+  Near an arch where wise words lay
+  A silent guardian bold and free
+  Find me where learning meets destiny!",,,,
+T,3,LOC24,"I stand alone where paths divide
+  A silent watcher firm with pride
+  Though roads may twist and cars may pass
+  I stay rooted—strong steadfast
+ detween the paths which lead height 
+ Yet here I stay my only home",,,,
+T,4,LOC23,"A symbol of wisdom open and wide
+  Standing tall with knowledge inside
+  Near the hall where honors shine
+  Find me where learning leaves its sign!",,,,
+T,5,LOC25,"By the well where managers meet
+A silent giant shades the street
+On the way where lectures call
+It stands and watches over all",,,,
+T,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+U,1,LOC26,"With branches strong and spread out wide
+ I stand where motion and forces collide
+ Near gears that turn and engines roar
+ Find me where mechanics explore!",,,,
+U,2,LOC27,"I am a Horse who do not race Yet I stand in a noble place
+  Near the home of art and design
+  Find me where ideas shine!",,,,
+U,3,LOC28,In the way of the Boat house I stand tall With hanging branches that sway and fall Like flowing threads from up so high Who am I as you walk by?,,,,
+U,4,LOC29,I stand tall with roots so deep Near the hall where memories keepWith leaves that dance in sun and breezeFind me swaying with such ease!,,,,
+U,5,LOC30," 
+         
+I float with grace so white and freeUpon still waters come find me Across from where the travelers stayI drift and dance throughout the day!",,,,
+U,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+V,1,LOC27,"I am a Horse who do not race
+  Yet I stand in a noble place
+  Near the home of art and design
+  Find me where ideas shine!",,,," 
+ 	
+I float with grace so white and freeUpon still waters come find me"
+V,2,LOC29,I stand tall with roots so deep Near the hall where memories keepWith leaves that dance in sun and breezeFind me swaying with such ease!,,,,
+V,3,LOC26,"With branches strong and spread out wide
+ I stand where motion and forces collide
+ Near gears that turn and engines roar
+ Find me where mechanics explore!",,,,
+V,4,LOC30, I float with grace so white and freeUpon still waters come find me Across from where the travelers stayI drift and dance throughout the day!,,,,
+V,5,LOC28,In the way of the Boat house I stand tall With hanging branches that sway and fall Like flowing threads from up so high Who am I as you walk by?,,,,
+V,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+W,1,LOC28,In the way of the Boat house I stand tall With hanging branches that sway and fall Like flowing threads from up so high Who am I as you walk by?,,,,
+W,2,LOC30, I float with grace so white and freeUpon still waters come find me Across from where the travelers stayI drift and dance throughout the day!,,,,
+W,3,LOC26,"With branches strong and spread out wide
+ I stand where motion and forces collide
+ Near gears that turn and engines roar
+ Find me where mechanics explore!",,,,
+W,4,LOC27,"I am a Horse who do not race
+  Yet I stand in a noble place
+  Near the home of art and design
+  Find me where ideas shine!",,,,
+W,5,LOC29,I stand tall with roots so deep Near the hall where memories keepWith leaves that dance in sun and breezeFind me swaying with such ease!,,,,
+W,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+X,1,LOC30, I float with grace so white and freeUpon still waters come find me Across from where the travelers stayI drift and dance throughout the day!,,,,
+X,2,LOC27,"I am a Horse who do not race
+  Yet I stand in a noble place
+  Near the home of art and design
+  Find me where ideas shine!",,,,
+X,3,LOC29,I stand tall with roots so deep Near the hall where memories keepWith leaves that dance in sun and breezeFind me swaying with such ease!,,,,
+X,4,LOC28,In the way of the Boat house I stand tall With hanging branches that sway and fall Like flowing threads from up so high Who am I as you walk by?,,,,
+X,5,LOC26,"With branches strong and spread out wide
+ I stand where motion and forces collide
+ Near gears that turn and engines roar
+ Find me where mechanics explore!",,,,
+X,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+Y,1,LOC2,"With iron bars I make the way
+ Green above where sunrays play
+ Walk through me don’t be late
+ The boat house is beyond my gate!""",,,,
+Y,2,LOC4,"By a place where ideas take flight
+  Where minds create from day to night
+  I stand tall with roots so deep
+  A silent watcher of secrets you keep
+  Find me near the makers’ hive
+  Where tools and dreams come alive!",,,,
+Y,3,LOC5,"I am a house but not just any
+  I save the earth I spend not many
+  With sun and science I make my way
+  Near Hostel 6 I proudly stay
   
-  What am I?"
-Y,4,LOC1,"Once I stood tall, reaching high, But thunder roared across the sky. A sudden flash, a mighty crack, Now I rest, never growing back. What am I?"
-Y,5,LOC3,"I once held words, now I rest in peace,
-  Waiting to grant old ink release.
-  Not thrown away, but given new might,
-  Find me where ends get a second write!"
-Y,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-Z,1,LOC8,"High above, yet full of green,
- On Civil’s top, I can be seen.
- I don’t touch ground, but I still grow,
- A hanging beauty in the air I show.
- What am I?"
-Z,2,LOC9,"From food and waste, I make new light,
-  Turning leftovers into might.
-  Gas I produce, not seen but grand,
-  Find me where waste gets a helping hand!"
-Z,3,LOC10,"Tall and slender, I sway with grace,
-  Near a place of money and chase.
-  With fronds so green, I touch the sky,
-  Find me where the rupees lie!"
-Z,4,LOC6,"Guarding wisdom, tall I stand,
-  Near a place where knowledge is grand.
-  Pages turn, but I stay still,
-  Find me if you have the will!"
-Z,5,LOC7,"I stand in silence, strong and high, Touched by clouds as they pass by. A path winds up through green embrace, Reaching my peak, a peaceful place. What am I?"
-Z,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-AA,1,LOC12,"Planted with care, young greens grow,
-  Nurtured by hands that serve and sow.
-  Near a school where children learn,
-  Find me where the saplings turn!"
-AA,2,LOC15,"Behind Hostel 11, I stand so tall,
- With twisted arms but no life at all.
- I look like a ghost, eerie to see,
- What am I, can you guess me?"
-AA,3,LOC14,"I stand not straight, but lean with grace,
-  In front of a matkas place.
-  Through sun and storm, I bend, not break,
-  Find me here for the clue to take!"
-AA,4,LOC13,"Carved in green, a symbol stands,
- Pride of the institute, shaped by hands.
- No words are spoken, yet all can see,
- Find me where the logo will be"
-AA,5,LOC11,"Made of metal, strong yet true,
-  Many hands come into view.
-  A symbol of strength, a work of art,
-  Find me where the hands take part!"
-AA,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-AB,1,LOC17,"A place where power is studied deep,
-  From sun to wind, the secrets keep.
-  If energy’s future you wish to see,
-  Find this building—where else could it be?"
-AB,2,LOC20,"Between metal and circuits bright,
- I stand tall, soaking light.
- Students pass me every day,
- Find me where these fields lay!"
-AB,3,LOC19,"I walk with strength, I stand with pride, In fields and farms, I'm a farmer's guide. A place of care, safe and wide, Where powerful beings peacefully reside. What am I?"
-AB,4,LOC16,"I catch the sun to power the way,
-  Helping lights shine bright each day.
-  By the road, connected to ground,
-  Find me where I fuel it all!"
-AB,5,LOC18,"Where little greens grow strong and tall,
-  Cared for daily, one and all.
-  Near a place of healing hands,
-  Find me where new life stands!"
-AB,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-AC,1,LOC23,"A symbol of wisdom, open and wide,
-  Standing tall with knowledge inside.
-  Near the hall where honors shine,
-  Find me where learning leaves its sign!"
-AC,2,LOC24,"I stand alone where paths divide,
-  A silent watcher, firm with pride.
-  Though roads may twist and cars may pass,
-  I stay rooted—strong, steadfast.
- detween the paths which lead height, 
- Yet here I stay, my only home."
-AC,3,LOC21,"With statue of bird and me,
-  Near an arch where wise words lay.
-  A silent guardian, bold and free,
-  Find me where learning meets destiny!"
-AC,4,LOC25,"Where wisdom grows and leaders shine, Stratergy and knowledge intertwine. Near this place, with love and care. We tie a thread to a tree standing there. We tie a thred to a tree standing there. What an i?"
-AC,5,LOC22,what is that which has the name of a water vehicle and a place where family lives but none can be seen there
-AC,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
-AD,1,LOC29,"A peaceful spot with flowers bright,
-  Where stars above shine every night.
-  A garden calm, with nature’s art,
-  Find me here to make a start!"
-AD,2,LOC28,"In the way of the Boat house, I stand tall, With hanging branches that sway and fall. Like flowing threads from up so high, Who am I as you walk by?"
-AD,3,LOC30,"shine like a mirror, calm and wide,
- In front of the guest house, I quietly reside.
- Fish may swim, and birds may land,
- What am I, can you understand?"
-AD,4,LOC26,"With branches strong and spread out wide,
- I stand where motion and forces collide.
- Near gears that turn and engines roar,
- Find me where mechanics explore!"
-AD,5,LOC27,"I am a Horse who do not race,
-  Yet I stand in a noble place.
-  Near the home of art and design,
-  Find me where ideas shine!"
-AD,6,NSS,"""Near the stage under the sky so wide,
- A room of service stands with pride.
- Volunteers gather, plans take flight,
- Spreading kindness, shining bright.
- What am I?"""
+  What am I?",,,,
+Y,4,LOC1,Once I stood tall reaching high But thunder roared across the sky A sudden flash a mighty crack Now I rest never growing back What am I?,,,,
+Y,5,LOC3,"I once held words now I rest in peace
+  Waiting to grant old ink release
+  Not thrown away but given new might
+  Find me where ends get a second write!",,,,
+Y,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+Z,1,LOC8,"High above yet full of green
+ On Civil’s top I can be seen
+ I don’t touch ground but I still grow
+ A hanging beauty in the air I show
+ What am I?",,,,
+Z,2,LOC9,"From food and waste I make new light
+  Turning leftovers into might
+  Gas I produce not seen but grand
+  Find me where waste gets a helping hand!",,,,
+Z,3,LOC10,"Tall and slender I sway with grace
+  Near a place of money and chase
+  With fronds so green I touch the sky
+  Find me where the rupees lie!",,,,
+Z,4,LOC6,"Guarding wisdom tall I stand
+  Near a place where knowledge is grand
+  Pages turn but I stay still
+  Find me if you have the will!",,,,
+Z,5,LOC7,I stand in silence strong and high Touched by clouds as they pass by A path winds up through green embrace Reaching my peak a peaceful place What am I?,,,,
+Z,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+AA,1,LOC12,"Planted with care young greens grow
+  Nurtured by hands that serve and sow
+  Near a school where children learn
+  Find me where the saplings turn!",,,,
+AA,2,LOC15,"Opposite the place where athletes run
+Stands a hostel numbered one-one
+Behind it waits so still so tall
+A lifeless tree that scares them all",,,,
+AA,3,LOC14,"I stand not straight but lean with grace
+  In front of a matkas place
+  Through sun and storm I bend not break
+  Find me here for the clue to take!",,,,
+AA,4,LOC13,"Carved in green a symbol stands
+ Pride of the institute shaped by hands
+ No words are spoken yet all can see
+ Find me where the logo will be",,,,
+AA,5,LOC11,"Made of metal strong yet true
+  Many hands come into view
+  A symbol of strength a work of art
+  Find me where the hands take part!",,,,
+AA,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+AB,1,LOC17,"A place where power is studied deep
+  From sun to wind the secrets keep
+  If energy’s future you wish to see
+  Find this building—where else could it be?",,,,
+AB,2,LOC20,"Between metal and circuits bright
+ I stand tall soaking light
+ Students pass me every day
+ Find me where these fields lay!",,,,
+AB,3,LOC19,I walk with strength I stand with pride In fields and farms I'm a farmer's guide A place of care safe and wide Where powerful beings peacefully reside What am I?,,,,
+AB,4,LOC16,"I catch the sun to power the way
+  Helping lights shine bright each day
+  By the road connected to ground
+  Find me where I fuel it all!",,,,
+AB,5,LOC18,"Where little greens grow strong and tall
+  Cared for daily one and all
+  Near a place of healing hands
+  Find me where new life stands!",,,,
+AB,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+AC,1,LOC23,"A symbol of wisdom open and wide
+  Standing tall with knowledge inside
+  Near the hall where honors shine
+  Find me where learning leaves its sign!",,,,
+AC,2,LOC24,"I stand alone where paths divide
+  A silent watcher firm with pride
+  Though roads may twist and cars may pass
+  I stay rooted—strong steadfast
+ detween the paths which lead height 
+ Yet here I stay my only home",,,,
+AC,3,LOC21,"With statue of bird and me
+  Near an arch where wise words lay
+  A silent guardian bold and free
+  Find me where learning meets destiny!",,,,
+AC,4,LOC25,"By the well where managers meet
+A silent giant shades the street
+On the way where lectures call
+It stands and watches over all",,,,
+AC,5,LOC22,"I hide in the bushes low and tight of a water vehicle and a place where family lives but none can be seen there Look closely where the leaves are dense
+Find me there—it all makes sense!",,,,
+AC,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,
+AD,1,LOC29,I stand tall with roots so deep Near the hall where memories keepWith leaves that dance in sun and breezeFind me swaying with such ease!,,,,
+AD,2,LOC28,In the way of the Boat house I stand tall With hanging branches that sway and fall Like flowing threads from up so high Who am I as you walk by?,,,,
+AD,3,LOC30, I float with grace so white and freeUpon still waters come find me Across from where the travelers stayI drift and dance throughout the day!,,,,
+AD,4,LOC26,"With branches strong and spread out wide
+ I stand where motion and forces collide
+ Near gears that turn and engines roar
+ Find me where mechanics explore!",,,,
+AD,5,LOC27,"I am a Horse who do not race
+  Yet I stand in a noble place
+  Near the home of art and design
+  Find me where ideas shine!",,,,
+AD,6,NSS,"""Near the stage under the sky so wide
+ A room of service stands with pride
+ Volunteers gather plans take flight
+ Spreading kindness shining bright
+ What am I?""",,,,

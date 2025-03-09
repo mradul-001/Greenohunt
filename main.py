@@ -330,7 +330,7 @@ def load_csv():
     db.session.commit()
 
     count = 0
-    with open(csv_file, newline='', encoding='utf-8') as f:
+    with open(csv_file, newline='', encoding='latin1') as f:
         reader = csv.DictReader(f)
         # The CSV must have the following columns: team_identifier, sequence_number, location_code, riddle
         for row in reader:
